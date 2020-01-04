@@ -84,8 +84,8 @@ take-n               (integer -+ [a] -+ [a])
 take-while           ((a -+ logic) -+ [a] -+ [a])
 unzip                ([[c]] -+ [[a] [b]])
 zip                  ([a] -+ [b] -+ [[a b]])
-zipwith              mia aggiunta
-|      ((number -+ number -+ number) -+ n-ring -+ n-ring -+ n-ring)
+zipwith              ((a -+ b -+ c) -+ [a] -+ [b] -+ [c]
+|                    ((number -+ number -+ number) -+ n-ring -+ n-ring -+ n-ring)
 
 }
 
